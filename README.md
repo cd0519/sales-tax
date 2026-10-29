@@ -1,5 +1,6 @@
 [sales tax.py](https://github.com/user-attachments/files/34153473/sales.tax.py)
-sales-taxprice = float(input("Enter the price of the sale item:"))  
+
+price = float(input("Enter the price of the sale item:"))  
 state = input("Enter the state being shipped to:").upper() 
 
 if state == "TX" or state == "LA":
